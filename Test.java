@@ -30,9 +30,9 @@ public class Test {
         long file2Millis = file2.toFile().lastModified();
         
         if (file1Millis == file2Millis) {
-        	System.out.println("Timestamp is equal - no bug is found");
+        	System.out.println("Timestamps are equal - no bug is found");
         } else {
-        	System.out.println("Timestamp is not equal - It should... this is a bug");	
+        	System.out.println("Timestamps are not equal - It should... this is a bug");	
         }  
     }
 }
